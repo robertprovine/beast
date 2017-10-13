@@ -1,0 +1,27 @@
+put all elements into array and shuffle
+
+generator(
+
+https://www.frankmitchell.org/2015/01/fisher-yates/
+
+bugs:
+if all beasts are killed, there is a bug (fixed)
+beasts speed up as they are killed (can be good though)
+after each round, number of beasts could increase by 2
+make beasts H character
+make player diamond
+fix timing increases to more gradual or same
+scaling H and diamond
+scaling random grid generator to accommodate for custom columns and rows
+organizing code, making it neat and getting rid of unused varibales. If needed for later, just comment the purpose for them
+
+Refactoring:
+more dry up down left right consolidation
+making grid constructor accept a model grid
+beast traversal not by array of possible outcomes
+objects instead of arrays when needed for lookups
+general function organization.. a more structured initialization and so forth
+event listener manager -> good practices that could enfore proper management of listener state
+
+http://zoo-keeper-jury-86482.bitballoon.com/
+https://git.generalassemb.ly/robertprovine/Beast-Game

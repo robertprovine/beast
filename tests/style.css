@@ -1,0 +1,86 @@
+/*
+.fixed {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  display: inline-block;
+  background-color: black;
+  color: red;
+}
+
+.inner {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-top: -20.5%;
+*/
+  /*margin-top: -41px;*/
+/*
+  font-size: 250px;
+  font-family: 'helvetica', sans-serif;
+*/
+  /*font-family: 'Rubik Mono One', sans-serif;*/
+/*
+  background-color: rgba(0, 0, 0, 0);
+}
+*/
+
+.container {
+  width: 90px;
+  height: 90px;
+  border: 1px black solid;
+  background-color: black;
+}
+
+.row {
+  height: 30px;
+}
+
+.box {
+  border: 1px black solid;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  background-color: black;
+  text-align: center;
+}
+
+.beast {
+  position: fixed;
+  color: red;
+  margin-top: -4px;
+  width: 28px;
+  height: 28px;
+  font-size: 32px;
+  font-family: 'helvetica', sans-serif;
+}
+
+.diamond {
+  -webkit-transform: rotate(45deg); 
+  width: 17px;
+  height: 17px;
+  margin: 5px 6px 7px 5px;
+  background-color: aqua;
+}
+/*
+#diamond {
+  width: 28px;
+  height: 28px;
+  border: 50px solid transparent;
+  position: fixed;
+  border-bottom-color: aqua;
+  position: relative;
+  top: -50px;
+}
+#diamond:after {
+  content: '';
+  left: -50px;
+  top: 50px;
+  width: 28px;
+  height: 28px;
+  border: 50px solid transparent;
+  border-top-color: red;
+}
+*/
